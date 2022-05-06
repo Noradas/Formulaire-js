@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire DWWM</title>
+</head>
+<body>
+    
+    <h1>Formulaire DWWM </h1>
+        <form action="#">
+   
+            Nom <br/>
+                <input type="text" name="Nom" placeholder="Entrer votre nom" id="nom"/> <br/>
+
+            E-mail <br/>
+                <input type="email" name="E-mail" placeholder=" Entrer votre e-mail" id="mail"/> <br/>
+
+            Indiquez votre satisfaction au cours de 1 à 10 <br>
+                <input type="number" name="" placeholder="numéro de 1 à 10" id="number"/> <br/>
+
+            Qui est votre Coach? <br/>
+                <select id="name">
+                    <option value="birante">Birante</option>
+                    <option value="malick ba">Malick Ba</option>
+                    <option value="mamadou">Mamadou</option>
+                </select> <br/>
+               
+            <!-- A quel moment avez-vous cours? <br/> 
+                <blockquote> 
+                    <input type="radio" name=""> Matin <br/>
+                    <input type="radio"  name=""> Après-midi <br/>
+                    <input type="radio" name=""> Soir
+                </blockquote>
+            
+            Quels outils avez-vous rencontrés jusque là? <br/>
+            (Sélectionnez tout ce qui s'applique) <br/>
+                <blockquote>
+                    <input type="checkbox" name=" "> HTML <br/>
+                    <input type="checkbox"  name=" "> CSS <br/>
+                    <input type="checkbox" name=" "> JavaScript <br/>
+                    <input type="checkbox"  name=" "> Editeur de texte <br/>
+                    <input type="checkbox" name=" "> Ligne de commande <br/>
+                </blockquote> -->
+
+            Décrivez votre expérience jusque là<br/>
+                <textarea name=" "rows="4" cols="30"  placeholder="Décrivez votre expérience ici..."id="type"></textarea> <br/>
+                <button type="button" onclick="bouton()"> Envoyer</button> 
+
+                <h1 id="recuperer"> </h1>
+                <h1 id="recueil"> </h1>
+                <h1 id="numerotation"></h1>
+                <h1 id="stock"></h1>
+                <h1 id="description"></h1>
+        </form>
+        <script src="script.js"> </script>
+</body>
+</html>
